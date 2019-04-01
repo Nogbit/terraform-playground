@@ -42,6 +42,8 @@ Also connect to it from glcoud CLI
 
     gcloud sql connect master-instance --user=joe
 
-### 005 - Private Cloud SQL
+## 005 - Private Cloud SQL
 
-Soon...start messing around with networks more and more modular setup.
+While [this example here](https://github.com/steinim/gcp-terraform-workshop/tree/task6) is pretty neat and modular, the DB is not private and sits on the internet for `0.0.0.0/0`.
+
+I would like to take that example and put the db on the private network per GCP capabilities.
