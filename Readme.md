@@ -50,7 +50,7 @@ I would like to take that example and put the db on the private network per GCP 
 
 There is [currently a bug](https://github.com/terraform-providers/terraform-provider-google/issues/3342) for putting Cloud SQL on a private network, at least a bug with their own implemenation that is.
 
-# 006 - PubSub
+## 006 - PubSub
 
 A set of 3 topics and 3 subscribers.  Messages are sent to different topics based on the the FizzBuzz number.  The respective GCP Function will then be triggered and log that it recieved the message.
 
